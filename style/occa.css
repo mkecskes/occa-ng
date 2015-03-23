@@ -1,0 +1,73 @@
+body{
+background: url("bg.jpg") center no-repeat fixed;
+background-size:cover;
+}
+
+#content{
+max-width: 750px;
+margin: auto;
+font-family: sans-serif;
+padding: 10px;
+}
+
+#navbar, .menuitem{
+margin: 10px 0;
+}
+
+#navbar{
+padding: 10px;
+background: rgba(255, 255, 255, .9);
+}
+
+#navbar:after{
+display: block;
+content: "";
+clear: both;
+}
+
+#prevdate, #nextdate{
+margin: 0;
+text-align: center;
+width: 50px;
+font-size: 2em;
+}
+
+#prevdate a, #nextdate a{
+text-decoration: none;
+}
+
+#curdate{
+margin: 7px 50px 0 50px;
+text-align: center;
+font-size: 1.4em;
+font-weight: bold;
+}
+
+#prevdate{
+float: left;
+}
+
+#nextdate{
+float: right;
+}
+
+.menuitem h3{
+margin: 0;
+padding: 10px;
+background: rgba(255, 255, 255, .9);
+}
+
+.menuitem p{
+margin: 0;
+padding: 10px;
+background: rgba(255, 255, 255, .7);
+}
+
+a{
+color: black;
+}
+
+a:hover, a:active{
+color: #262;
+text-decoration: none;
+}
